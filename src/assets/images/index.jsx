@@ -18,7 +18,7 @@ import Typescript from "./skills/typescript.png";
 import Carrent from "./projects/Carrent.png";
 import Ecommerce from "./projects/E_Commerce.png";
 import Ecourse from "./projects/E_Courses.png";
-import Financing from "./projects/financing.jpeg";
+import Financing from "./projects/Financing.jpeg";
 import Netflix from "./projects/Netflix_Clone.png";
 import Realestate from "./projects/Real_Estate.jpg";
 import Tripguide from "./projects/Tripguide.png";

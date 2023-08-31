@@ -1,5 +1,5 @@
 import { About, Contact, Home, Navbar, Skills, Work } from "./components";
-import TypewriterComponent from "typewriter-effect";
+
 function App() {
   return (
     <>

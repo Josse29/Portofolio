@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    li{
+        @apply px-4;
+        @apply cursor-pointer;
+    }
+}
+.content-project{
+    cursor: pointer;
+    position: relative;
+}
+.content-project img{
+    height: 280px;
+    width: 380px;
+}
+.content-project .desc{
+    display: none;
+}
+.content-project:hover .desc{
+    display: flex;
+    position: absolute;
+    right: 0px;
+    bottom:0px;
+    left: 0px;
+    top: 0px;
+    background-color: hsla(242, 74%, 61%, 0.9);
+}
+@media (max-width:1000px) {
+    .content-project:hover .desc{
+        right: 10px;
+        bottom:10px;
+        left: 10px;
+        top: 10px;
+    }
+    .content-project{
+        padding:10px;
+    }
+}
